@@ -229,4 +229,175 @@ defmodule GenReport.Support.ReportFixture do
       }
     }
   end
+
+  def build_from_many do
+    %{
+      "all_hours" => %{
+        "cleiton" => 27594,
+        "daniele" => 26528,
+        "danilo" => 27166,
+        "diego" => 26030,
+        "giuliano" => 27342,
+        "jakeliny" => 27818,
+        "joseph" => 26348,
+        "mayk" => 27052,
+        "rafael" => 27194,
+        "vinicius" => 26824
+      },
+      "hours_per_month" => %{
+        "cleiton" => %{
+          "abril" => 2322,
+          "agosto" => 2298,
+          "dezembro" => 2200,
+          "fevereiro" => 2336,
+          "janeiro" => 2542,
+          "julho" => 2472,
+          "junho" => 2246,
+          "maio" => 1996,
+          "março" => 2182,
+          "novembro" => 2532,
+          "outubro" => 2146,
+          "setembro" => 2322
+        },
+        "daniele" => %{
+          "abril" => 2276,
+          "agosto" => 2036,
+          "dezembro" => 2038,
+          "fevereiro" => 2006,
+          "janeiro" => 2260,
+          "julho" => 2270,
+          "junho" => 2184,
+          "maio" => 2340,
+          "março" => 2354,
+          "novembro" => 2262,
+          "outubro" => 2092,
+          "setembro" => 2410
+        },
+        "danilo" => %{
+          "abril" => 2464,
+          "agosto" => 2400,
+          "dezembro" => 2298,
+          "fevereiro" => 2312,
+          "janeiro" => 2242,
+          "julho" => 2228,
+          "junho" => 1932,
+          "maio" => 2150,
+          "março" => 2192,
+          "novembro" => 2244,
+          "outubro" => 2474,
+          "setembro" => 2230
+        },
+        "diego" => %{
+          "abril" => 2224,
+          "agosto" => 2258,
+          "dezembro" => 2354,
+          "fevereiro" => 2288,
+          "janeiro" => 2236,
+          "julho" => 2198,
+          "junho" => 2146,
+          "maio" => 2164,
+          "março" => 2058,
+          "novembro" => 1990,
+          "outubro" => 1856,
+          "setembro" => 2258
+        },
+        "giuliano" => %{
+          "abril" => 2304,
+          "agosto" => 2252,
+          "dezembro" => 2200,
+          "fevereiro" => 2346,
+          "janeiro" => 2214,
+          "julho" => 2338,
+          "junho" => 2394,
+          "maio" => 2364,
+          "março" => 2194,
+          "novembro" => 2210,
+          "outubro" => 2246,
+          "setembro" => 2280
+        },
+        "jakeliny" => %{
+          "abril" => 2344,
+          "agosto" => 2196,
+          "dezembro" => 2244,
+          "fevereiro" => 2238,
+          "janeiro" => 2236,
+          "julho" => 2490,
+          "junho" => 2364,
+          "maio" => 2258,
+          "março" => 2356,
+          "novembro" => 2170,
+          "outubro" => 2394,
+          "setembro" => 2528
+        },
+        "joseph" => %{
+          "abril" => 2094,
+          "agosto" => 2334,
+          "dezembro" => 2244,
+          "fevereiro" => 2404,
+          "janeiro" => 2168,
+          "julho" => 2306,
+          "junho" => 2210,
+          "maio" => 2164,
+          "março" => 2076,
+          "novembro" => 2010,
+          "outubro" => 2116,
+          "setembro" => 2222
+        },
+        "mayk" => %{
+          "abril" => 2032,
+          "agosto" => 2158,
+          "dezembro" => 2318,
+          "fevereiro" => 2170,
+          "janeiro" => 2200,
+          "julho" => 2186,
+          "junho" => 2380,
+          "maio" => 2346,
+          "março" => 2332,
+          "novembro" => 2514,
+          "outubro" => 2188,
+          "setembro" => 2228
+        },
+        "rafael" => %{
+          "abril" => 2342,
+          "agosto" => 2398,
+          "dezembro" => 1930,
+          "fevereiro" => 2084,
+          "janeiro" => 2250,
+          "julho" => 2194,
+          "junho" => 2436,
+          "maio" => 2282,
+          "março" => 2440,
+          "novembro" => 2326,
+          "outubro" => 2322,
+          "setembro" => 2190
+        },
+        "vinicius" => %{
+          "abril" => 2298,
+          "agosto" => 2110,
+          "dezembro" => 2372,
+          "fevereiro" => 2204,
+          "janeiro" => 2072,
+          "julho" => 1958,
+          "junho" => 2426,
+          "maio" => 2218,
+          "março" => 2382,
+          "novembro" => 2338,
+          "outubro" => 2226,
+          "setembro" => 2220
+        }
+      },
+      "hours_per_year" => %{
+        "cleiton" => %{2016 => 5398, 2017 => 5368, 2018 => 5610, 2019 => 5428, 2020 => 5790},
+        "daniele" => %{2016 => 5146, 2017 => 5724, 2018 => 5266, 2019 => 5124, 2020 => 5268},
+        "danilo" => %{2016 => 5492, 2017 => 5068, 2018 => 5944, 2019 => 5332, 2020 => 5330},
+        "diego" => %{2016 => 5154, 2017 => 5294, 2018 => 5584, 2019 => 4972, 2020 => 5026},
+        "giuliano" => %{2016 => 5568, 2017 => 5392, 2018 => 5386, 2019 => 5700, 2020 => 5296},
+        "jakeliny" => %{2016 => 5738, 2017 => 5250, 2018 => 5530, 2019 => 5418, 2020 => 5882},
+        "joseph" => %{2016 => 5206, 2017 => 5234, 2018 => 5174, 2019 => 5344, 2020 => 5390},
+        "mayk" => %{2016 => 5288, 2017 => 5470, 2018 => 5540, 2019 => 5556, 2020 => 5198},
+        "rafael" => %{2016 => 5368, 2017 => 5140, 2018 => 5256, 2019 => 5572, 2020 => 5858},
+        "vinicius" => %{2016 => 5060, 2017 => 5440, 2018 => 5308, 2019 => 5280, 2020 => 5736}
+      }
+    }
+  end
 end

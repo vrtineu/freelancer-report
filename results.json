@@ -11,6 +11,20 @@
       "test": "test parse_file/1 parses the file"
     },
     {
+      "describe": "build_from_many/1",
+      "file": "/home/vrtineu/Studies/freelancer-report/test/gen_report_test.exs",
+      "line": 30,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When no list was given, returns an error"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/home/vrtineu/Studies/freelancer-report/test/gen_report_test.exs",
+      "line": 24,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When passing a list of files it should return their sum"
+    },
+    {
       "describe": "build/1",
       "file": "/home/vrtineu/Studies/freelancer-report/test/gen_report_test.exs",
       "line": 16,
